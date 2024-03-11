@@ -1,5 +1,5 @@
 export const environment = {
-    production: false,
+    production: true,
     firebase: {
         apiKey: "AIzaSyCclEur8b3bytVuM0Cb7k9Gf95QjN89qgg",
         authDomain: "gpu-marketplace.firebaseapp.com",
