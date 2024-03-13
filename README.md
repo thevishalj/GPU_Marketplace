@@ -15,7 +15,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     8. Install ng-bootstrap - "npm i --save @ng-bootstrap/ng-bootstrap" 
        It provides Bootstrap components written in Angular, without the need for jQuery or Bootstrap's JavaScript.
     9. Install Popper - "npm install popper.js --save"
-    10 Install jQuery - "npm install -D @types/jquery"
+    10. Install jQuery - "npm install -D @types/jquery"
 
 ## Development server
 

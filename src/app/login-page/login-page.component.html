@@ -1,1 +1,68 @@
-<p>login-page works!</p>
+<div>
+    <br>
+</div>
+
+<div id="login-box">
+    <div style = "text-align: center; font-size: large;">
+        <p id = login-text> 
+            Login to confirm that you're Vishal or his Development team </p>
+
+        <form action = "test.java">
+        <br>
+            <input type="text" placeholder="Username" class="login-input">
+            <br><br>
+            <input type = "password" placeholder = "Passward" class="login-input">
+
+            <br><br>
+
+            <div id = "other"> 
+                <div>
+                    <label for = "100">
+                        <input type = "radio" value = "Vishal" name = "class" id = "100"> Admin
+                    </label>
+                    &nbsp;&nbsp;
+                    <label for = "101">
+                        <input type = "radio" value = "Developer" name = "class" id = "101"> Developer
+                    </label>
+                </div>
+                    
+                <div>
+                    <p> Select the Environment you want to login to - </p>
+                    <select name = "Portal Environment" class = "drop-down">
+                        <option value = "Prod"> Production </option>
+                        <option value = "Testing"> Testing </option>
+                    </select>
+                </div>
+                
+                <br>
+                
+                <div>
+                    <label for = "T&C1">
+                        <input type = "checkbox" value = "T&C1" name = "class" id = "T&C1"> I Accept all the terms and Conditions
+                    </label>
+                    <br>
+                    <label for = "T&C2">
+                        <input type = "checkbox" value = "T&C2" name = "class" id = "T&C2"> I know my usage will be monitored
+                    </label>
+                </div>
+            </div>
+
+            <br>
+            
+            <div>
+                <input type="submit" value = "Login" class = "Login-button" routerLink="">
+            </div>
+
+            <br>
+        </form>
+    </div>
+</div>
+
+<div>
+    <br/>
+    <hr class="divider">
+</div>
+
+<footer class = "footer">
+    <p> Not an registered user? <a routerLink="create-account"> Create Account</a></p>
+</footer>

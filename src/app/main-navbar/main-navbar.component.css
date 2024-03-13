@@ -2,3 +2,16 @@
     margin-left: 30px;
     margin-right: 30px;
 }
+
+.login-button {
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 10px 50px;
+    background-color: #4285F4;
+    text-decoration: none;
+}
