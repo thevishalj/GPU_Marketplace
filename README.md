@@ -16,6 +16,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
        It provides Bootstrap components written in Angular, without the need for jQuery or Bootstrap's JavaScript.
     9. Install Popper - "npm install popper.js --save"
     10. Install jQuery - "npm install -D @types/jquery"
+    11. Install Firebase tools - "npm install -g firebase-tools". Check using - "firebase --version"
+    12. Login to firebase - "firebase login"
+    13. Start Firebase - "firebase init"
+        Firebase live branch - master. After PR deployment will start.
+
+## Host Project
+
+    1. "ng build --prod"
+    2. "firebase deploy"
 
 ## Development server
 
