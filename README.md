@@ -11,7 +11,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     3. Install Angular CLI - "npm install -g @angular/cli@16" - Check using "ng v"
     4. Final check using - "ng serve"
     6. Install bootstrap
-    7. Install firebase and angularfire2
+    7. Install firebase and angularfire
        AngularFire establish auth connection between Angular and Firebase.
     8. Install ng-bootstrap - "npm i --save @ng-bootstrap/ng-bootstrap" 
        It provides Bootstrap components written in Angular, without the need for jQuery or Bootstrap's JavaScript.
@@ -20,7 +20,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Host Project
 
-    1. Install Firebase tools - "npm install -g firebase-tools". Check using - "firebase --version"
+    1. Install Firebase tools - "npm install -g firebase-tools". Check using - "npm firebase-tools -v"
     2. Login to firebase - "firebase login"
     3. Start Firebase - "firebase init"
     4. Run - "ng build --prod" or "npm run build"
