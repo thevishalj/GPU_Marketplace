@@ -23,6 +23,7 @@
     border: 2px solid #e4e4e4; 
     border-radius: 20px; 
     margin: auto;
+    margin-top: 30px;
   }
   
   #login-text{
@@ -88,4 +89,5 @@
     font-size: 15px; 
     text-align: center;
     font-family: Verdana, sans-serif;
+    margin-top: 15px;
   }

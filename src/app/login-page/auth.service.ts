@@ -18,12 +18,12 @@ export class AuthService {
         if(res.user?.emailVerified == true) {
           this.router.navigate(['/']);
         } else {
-          this.router.navigate(['create-account']);
+          this.router.navigate(['/create-account']);
         }
 
     }, err => {
         alert(err.message);
-        this.router.navigate(['login']);
+        this.router.navigate(['/login']);
     })
   }
 
@@ -32,7 +32,17 @@ export class AuthService {
       this.router.navigate(['/']);
     }, err => {
       alert(err.message);
-      this.router.navigate(['login']);
+      this.router.navigate(['/login']);
+    })
+  }
+
+  createAccount(email : string, password : string) {
+    this.fireauth.createUserWithEmailAndPassword(email, password).then( res => {
+      alert('Registration Successful');
+      this.router.navigate(['/login']);
+    }, err => {
+      alert(err.message);
+      this.router.navigate(['/create-account']);
     })
   }
 

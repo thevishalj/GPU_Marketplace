@@ -1,7 +1,4 @@
 import { Component } from '@angular/core';
-import { AngularFireAuth } from '@angular/fire/compat/auth';
-import { GoogleAuthProvider } from '@angular/fire/auth';
-import { Router} from '@angular/router';
 import { AuthService } from './auth.service';
 
 @Component({
