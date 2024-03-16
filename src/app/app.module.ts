@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { environment } from 'src/environments/environment';
-import { AngularFireModule } from 'angularfire2'; 
-import { AngularFireDatabaseModule } from 'angularfire2/database'; 
-import { AngularFireAuthModule } from 'angularfire2/auth';
+import { AngularFireModule } from '@angular/fire/compat'; 
+import { AngularFireAuthModule } from '@angular/fire/compat/auth';
+// import { AngularFireDatabaseModule } from '@angular/fire/database'; 
 import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -38,9 +38,9 @@ import { CreateAccountComponent } from './create-account/create-account.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // AngularFireModule.initializeApp(environment.firebase),
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFireAuthModule,
     // AngularFireDatabaseModule,
-    // AngularFireAuthModule
     RouterModule.forRoot([
       { path: '', component: HomepageComponent },
       { path: 'products', component: ProductsPageComponent },

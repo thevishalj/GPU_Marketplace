@@ -12,6 +12,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     4. Final check using - "ng serve"
     6. Install bootstrap
     7. Install firebase and angularfire2
+       AngularFire establish auth connection between Angular and Firebase.
     8. Install ng-bootstrap - "npm i --save @ng-bootstrap/ng-bootstrap" 
        It provides Bootstrap components written in Angular, without the need for jQuery or Bootstrap's JavaScript.
     9. Install Popper - "npm install popper.js --save"
