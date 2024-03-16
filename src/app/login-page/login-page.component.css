@@ -19,17 +19,19 @@
   }
   
   #login-box{
-    width: 700px; 
+    width: 600px; 
     border: 2px solid #e4e4e4; 
     border-radius: 20px; 
     margin: auto;
+    margin-top: 30px;
   }
   
   #login-text{
     font-weight: bold; 
     padding-top: 3%; color: #3477e2; 
     font-family: Source Sans Pro; 
-    font-size: 22px;
+    font-size: 30px;
+    margin-bottom: 0%;
   }
   
   .login-input {
@@ -63,18 +65,29 @@
     font-weight: 600;
     color: white;
     background-color: #4285F4;
-    padding: 12px 20px;
+    padding: 12px;
     width: 75%;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
-  
-  .divider{
-    border-top: 1px solid #d1cfcf;
-    width: 700px;
-    text-align: center;
+
+  .Google-Login {
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 48px;
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    padding: 12px;
+    width: 75%;
+    margin-bottom: 15px;
   }
   
   .footer {
     font-size: 15px; 
     text-align: center;
     font-family: Verdana, sans-serif;
+    margin-top: 15px;
   }

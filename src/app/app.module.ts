@@ -19,6 +19,8 @@ import { AdminProductsComponent } from './admin/admin-products/admin-products.co
 import { AdminOrdersComponent } from './admin/admin-orders/admin-orders.component';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { CreateAccountComponent } from './create-account/create-account.component';
+import { AuthService } from './login-page/auth.service';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -41,6 +43,7 @@ import { CreateAccountComponent } from './create-account/create-account.componen
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule,
     // AngularFireDatabaseModule,
+    FormsModule,
     RouterModule.forRoot([
       { path: '', component: HomepageComponent },
       { path: 'products', component: ProductsPageComponent },
@@ -54,7 +57,7 @@ import { CreateAccountComponent } from './create-account/create-account.componen
       { path: 'admin/orders', component: AdminOrdersComponent }
     ])
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
