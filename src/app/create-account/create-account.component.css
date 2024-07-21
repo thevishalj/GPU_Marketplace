@@ -51,11 +51,6 @@
     font-family: Verdana, sans-serif;
   }
   
-  #other{
-    font-size: 16px;
-    font-family: Verdana, sans-serif;
-  }
-  
   .Login-button {
     align-items: center;
     border: 1px solid #ccc;
@@ -69,6 +64,10 @@
     width: 75%;
     margin-bottom: 15px;
     margin-top: 15px;
+  }
+
+  button:hover {
+    background-color: #2978f7;
   }
 
   .Google-Login {
