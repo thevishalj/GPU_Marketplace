@@ -1,11 +1,11 @@
 #login-header{
-    color: #282a35; 
-    font-size: 29px; 
-    font-weight: 700; 
+    color: #282a35;
+    font-size: 29px;
+    font-weight: 700;
     padding-left: 4%;
-    text-decoration: none; 
+    text-decoration: none;
   }
-  
+
   #Request_button {
     align-items: center;
     border: 1px solid transparent;
@@ -17,23 +17,23 @@
     padding: 10px 20px;
     background-color: #e3e5e9;
   }
-  
+
   #login-box{
-    width: 600px; 
-    border: 2px solid #e4e4e4; 
-    border-radius: 20px; 
+    width: 600px;
+    border: 2px solid #e4e4e4;
+    border-radius: 20px;
     margin: auto;
     margin-top: 30px;
   }
-  
+
   #login-text{
-    font-weight: bold; 
-    padding-top: 3%; color: #3477e2; 
-    font-family: Source Sans Pro; 
+    font-weight: bold;
+    padding-top: 3%; color: #3477e2;
+    font-family: Source Sans Pro;
     font-size: 30px;
     margin-bottom: 0%;
   }
-  
+
   .login-input {
       padding: 10px;
       border: 2px solid #ccc;
@@ -42,7 +42,7 @@
       width: 500px;
       text-align: center;
     }
-  
+
   .drop-down {
     border: 1px solid #ccc;
     padding: 6px;
@@ -50,12 +50,7 @@
     font-size: 15px;
     font-family: Verdana, sans-serif;
   }
-  
-  #other{
-    font-size: 16px;
-    font-family: Verdana, sans-serif;
-  }
-  
+
   .Login-button {
     align-items: center;
     border: 1px solid #ccc;
@@ -75,7 +70,6 @@
     align-items: center;
     border: 1px solid #ccc;
     border-radius: 48px;
-    font-family: Source Sans Pro,sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: black;
@@ -84,9 +78,13 @@
     width: 75%;
     margin-bottom: 15px;
   }
-  
-  .footer {
-    font-size: 15px; 
+
+  button:hover {
+    background-color: #2978f7;
+  }
+
+  footer {
+    font-size: 15px;
     text-align: center;
     font-family: Verdana, sans-serif;
     margin-top: 15px;
