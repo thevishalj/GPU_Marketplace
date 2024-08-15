@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { AuthService } from './auth.service';
+import {Component} from '@angular/core';
+import {AuthService} from './auth.service';
 
 @Component({
   selector: 'app-login-page',
@@ -8,29 +8,29 @@ import { AuthService } from './auth.service';
 })
 export class LoginPageComponent {
   loginStatus = false;
-  email : string = '';
-  password : string = '';
+  username : string = '';
+  password1 : string = '';
 
   constructor(private auth: AuthService){
   }
 
-  login() {
+  login1() {
     this.loginStatus = true;
 
-    if(this.email == '') {
+    if(this.username == '') {
       alert('Please enter email');
       return;
     }
 
-    if(this.password == '') {
+    if(this.password1 == '') {
       alert('Please enter password');
       return;
     }
 
-    this.auth.login(this.email, this.password);
-    
-    this.email = '';
-    this.password = '';
+    this.auth.login(this.username, this.password1);
+
+    this.username = '';
+    this.password1 = '';
     this.loginStatus = false;
   }
 
