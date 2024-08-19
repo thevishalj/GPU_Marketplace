@@ -4,7 +4,7 @@
         <p style="font-size: small; color: #3477e2; margin-bottom: 20px;">
             Get access to your Orders, Wishlist and Recommendations </p>
 
-      <form #login="ngForm">
+      <form #loginForm="ngForm">
         <div class="mb-3" >
           <label for="email" class="login-label">Username</label><br>
           <input
@@ -55,7 +55,7 @@
         <button type="submit"
                 class="Login-button"
                 (click)="login1()"
-                [disabled]='login.invalid'>Login</button>
+                [disabled]='loginForm.invalid'>Login</button>
         <div>
           <button class="Google-Login">
             <svg xmlns="http://www.w3.org/2000/svg"
