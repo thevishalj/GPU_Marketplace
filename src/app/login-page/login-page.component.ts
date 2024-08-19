@@ -10,23 +10,14 @@ export class LoginPageComponent {
   loginStatus = false;
   username : string = '';
   password1 : string = '';
+  termsAccepted: boolean = false;
+  usageMonitored: boolean = false;
 
   constructor(private auth: AuthService){
   }
 
   login1() {
     this.loginStatus = true;
-
-    if(this.username == '') {
-      alert('Please enter email');
-      return;
-    }
-
-    if(this.password1 == '') {
-      alert('Please enter password');
-      return;
-    }
-
     this.auth.login(this.username, this.password1);
 
     this.username = '';
